@@ -27,7 +27,7 @@ bashline("echo 'this is a command executed inside the bash language'")
 
 # ------------------
 
-say: it prints the given string/integer/variable/list
+say: it returns the given string/integer/variable/list
 
 lib: it imports sapphire libraries
 
