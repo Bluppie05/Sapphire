@@ -7,18 +7,21 @@ Sapphire is based on python3 and designed in a way to run every single python3 c
 
 # Sapphire commands example:
 
-lib bashline
+	lib bashline
+	
+	say("Welcome")
+	
+	userinput = prompt("How old are you: ")
 
-say("Welcome")
-
-userinput = prompt("How old are you: ")
-
-if userinput equals "13":
-	say("Hey, me too!")
-else-if userinput equals "100":
-	say("WOW, that is old")
-else:
-	say("Thank you for your input")
+	if userinput equals "13":
+		say("Hey, me too!")
+	
+	else-if userinput equals "100":
+		say("WOW, that is old")
+	
+	else:
+		say("Thank you for your input")
+	
 
 bashline("echo 'this is a command executed inside the bash language'")
 
